@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery services in India|Myonlinemeal.com</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+#navbar{
+    display: flex;
+    align-items: center;
+    
+}
+#logo {
+margin: 10px 34px ;
+}
+#logo img{
+    /* height: 56px; */
+    height:50px;
+    width:50px;
+    border-radius: 250px 250px;
+    margin: 3px 6px;
+
+}
+
+#navbar ul{
+    display: flex; 
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height:12%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4;
+
+
+
+}
+#navbar ul li{
+    
+    list-style: none;
+    font-size:20px ;
+}
+#navbar ul li a{
+    
+    color:honeydew;
+    padding:3px 22px;
+    /* border-radius:20px;  */
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+    border-radius:20px; 
+}
+#home{
+    display: flex;
+    height: 720px;
+    flex-direction: column;
+    padding: 5px 100px ;
+    justify-content: center;
+    align-items: center;
+
+}
+#home::before{
+    content: ""; 
+    background:url("food6.jpg")no-repeat center center/cover;
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+ border: 2px solid black;
+padding:34px ;
+margin: 3px 6px;
+border-radius: 23px;
+background-color:rgb(231, 222, 225)
+}
+#services .box img{
+    height: 150px;
+    display: block;
+    margin: auto;
+
+}
+#client-section{
+ height: 240px; 
+
+}
+#client-section::before{
+    content:"";
+    position: absolute;  
+    background: url("food2.jpg") center;
+    width: 100%;
+    z-index: -1;
+    height: 45%;
+    opacity: .8;
+}
+#clients{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.client-item{
+    padding: 12px;
+}
+.client-item img{
+    height: 85px;
+}
+
+#contact::before{
+    content: "";
+     position: absolute; 
+     background: url("cc.jpg") no-repeat center center/cover;
+    width:100%;
+    height:40%;
+    z-index: -1;
+    opacity:1.7 ;
+ }
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+
+.h{
+    font-size:3.8rem ;
+    color: white;
+  
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+.h-secondary{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.f1{
+    height: 20px;
+    font-size: 1rem;
+    color: white;
+background-color: black;
+padding: 20px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer
+}
+.center{
+    text-align: center;
+
+}
+    </style>
+
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.jpg" alt="this is a logo"> 
+        </div>
+        <ul>
+          <li class="item"><a href="#">Home</a></li>
+          <li class="item"><a href="#">Services</a></li>
+          <li class="item"><a href="#">About Us</a></li>
+          <li class="item"><a href="#">Contact Us</a></li>
+         
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Myonlinemeal!!!</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quisquam ipsum eos, minus pariatur illo consequatur voluptatem odit 
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dicta modi  </p>
+        <button class="btn">Order Now</button>
+    </section>
+        <section class="services-container">
+           <h1 class="h-primary center"> Our Services</h1>
+           <div id="services">
+               <div class="box">
+                   <img src="food3.jpg">
+                   <h2 class="h-secondary center">Food Ordering</h2>
+                   <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque labore pariatur ut fuga exercitationem commodi quibusdam. Laudantium </p>
+               </div>
+               <div class="box">
+                <img src="food5.jpg">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque labore pariatur ut fuga exercitationem commodi quibusdam. Laudantium </p>
+            </div>
+            <div class="box">
+                <img src="logo.jpg">
+                <h2 class="h-secondary center">Home Services</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque labore pariatur ut fuga exercitationem commodi quibusdam. Laudantium </p>
+            </div>
+           </div>
+       
+    </section>
+    <section id="client-section"> 
+        <h1 class="h-primary  center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="logo1.png">
+            </div>
+            <div class="client-item">
+                <img src="logo2.png">
+            </div>
+            <div class="client-item">
+                <img src="logo3.png">
+            </div>
+            <div class="client-item">
+                <img src="logo4.png">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h center">Contact Us</h1>
+        <div id="contact-box">
+            <h2>Ph no.-8789172514<br>
+             e-mail:harsh@gmail.com</h2>
+        </div>
+    </section>
+   <footer>
+       <div class =" f1 center">
+           copyright &copy; www.Myonlinemeal.com.All rights reserved!!
+       </div>
+   </footer>
+</body>
+</html>
